@@ -1,0 +1,77 @@
+= Deployment Overview
+
+This topic lists the different methods of deploying Mule applications, APIs, and API proxies in Anypoint Platform. 
+
+Anypoint Platform provides multiple tools for designing APIs and Mule applications. After desiging an API or Mule application, you need a way to test it, and ultimately, make it accessible to users in a production environment.
+
+Deployment refers to the process of moving  from your development environment to a Mule runtime so that they are available for testing or production. Within Anypoint Platform there are three types of resources you can deploy: 
+
+* Mule applications
+* APIs
+* API proxies
+
+Anypoint Platform provides multiple ways of deploying Mule applications, APIs, and API proxies. The exact method you use to deploy depends partially on whether you are deploying to a sandbox or production environment and on whether you need to automate the deployment process.
+
+== Deploy a Mule Application
+
+The following sections describe different ways of deploying a Mule application within Anypoint Platform.
+
+=== Design Center
+
+Enables you to deploy directly to CloudHub. You can specify the environment where you want to deploy. In a normal workflow, this would be a sandbox environment used for testing your application. See link:/design-center/v/1.0/promote-app-prod-env-design-center[To Deploy an App (Design Center)] for more information.
+
+=== Anypoint Studio
+
+Anypoint Studio provides a built-in Mule runtime environment. Deploy your Mule application to this environment for local testing during development.
+
+Additionally, you can link:/anypoint-studio/v/7.1/deploy-mule-application-task[Deploy a Mule Application to CloudHub]. 
+
+=== Runtime Manager
+
+CloudHub, Hybrid, PCE, PCF
+
+=== CloudHub API
+
+=== Anypoint Platform CLI
+
+=== Mule Maven Plugin
+
+=== Standalone Mule
+
+https://docs.mulesoft.com/mule-user-guide/v/3.9/deploying-to-multiple-environments
+
+[%header%autowidth.spread]
+|===
+| Component | Description | Links
+| Studio |  | link:/anypoint-studio/v/7.1/deploy-mule-application-task[To Deploy a Mule Application to CloudHub (Anypoint Studio)]
+| Design Center | Enables you to deploy directly to CloudHub. You can specify the environment where you want to deploy. In general, this would be a sandbox environment used for testing your application.
+| Runtime Manager | 
+| CloudHub API | 
+| Anypoint Platform CLI | CloudHub, PCE, PCF
+| Mule Maven Plugin | 
+| Standalone Mule | https://docs.mulesoft.com/mule-user-guide/v/3.9/deploying-to-multiple-environments
+|===
+
+
+== Deploy an API
+
+[%header%autowidth.spread]
+|===
+| Component | Description
+| API Manager | 
+| Exchange
+|===
+
+== Deploy an API Proxy
+
+An API proxy provides a way of separating your customer-facing API from the backend systems and services that are part of the API implementation. These backend systemscan be external systems or Mule applications that are running on a Mule runtime. By default, if you are using versions 3.8, 3.9 and 4.x, you do not have to deploy an API proxy to make an API publicly available. However, if your Mule application does not have Autodiscovery configured, you must deploy an API proxy to expose the Mule application via an API.
+
+[Need links!]
+
+The following table lists the ways you can deploy an API proxy in Anypoint Platform:
+
+[%header%autowidth.spread]
+|===
+| Component | Description
+| API Manager | 
+|===
