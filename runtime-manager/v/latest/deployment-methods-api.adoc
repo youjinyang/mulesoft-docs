@@ -1,0 +1,28 @@
+= Methods of Deploying an API and API Proxy
+
+== Methods of Deploying an API
+
+[%header%autowidth.spread]
+|===
+| Component | Description
+| API Manager | 
+| Exchange
+|===
+
+== Methods of Deploying an API Proxy
+
+An API proxy provides a way of separating your customer-facing API from the backend systems and services that are part of the API implementation. These backend systemscan be external systems or Mule applications that are running on a Mule runtime. By default, if you are using versions 3.8, 3.9 and 4.x, you do not have to deploy an API proxy to make an API publicly available. However, if your Mule application does not have Autodiscovery configured, you must deploy an API proxy to expose the Mule application via an API.
+
+[Need links!]
+
+The following table lists the ways you can deploy an API proxy in Anypoint Platform:
+
+[%header%autowidth.spread]
+|===
+| Component | Description
+| API Manager | 
+|===
+
+== See Also
+
+* link:deployment-methods-app[Methods of Deploying a Mule Application]
