@@ -1,4 +1,4 @@
-= Deployment Overview
+= Ways to Deploy a Mule Applications
 
 This topic lists the different methods of deploying Mule applications, APIs, and API proxies in Anypoint Platform. 
 
@@ -12,7 +12,7 @@ Deployment refers to the process of moving  from your development environment to
 
 Anypoint Platform provides multiple ways of deploying Mule applications, APIs, and API proxies. The exact method you use to deploy depends partially on whether you are deploying to a sandbox or production environment and on whether you need to automate the deployment process.
 
-== Deploy a Mule Application
+== Ways to Deploy a Mule Application
 
 The following sections describe different ways of deploying a Mule application within Anypoint Platform.
 
@@ -53,7 +53,7 @@ https://docs.mulesoft.com/mule-user-guide/v/3.9/deploying-to-multiple-environmen
 |===
 
 
-== Deploy an API
+== Ways to Deploy an API
 
 [%header%autowidth.spread]
 |===
@@ -62,7 +62,7 @@ https://docs.mulesoft.com/mule-user-guide/v/3.9/deploying-to-multiple-environmen
 | Exchange
 |===
 
-== Deploy an API Proxy
+== Ways to Deploy an API Proxy
 
 An API proxy provides a way of separating your customer-facing API from the backend systems and services that are part of the API implementation. These backend systemscan be external systems or Mule applications that are running on a Mule runtime. By default, if you are using versions 3.8, 3.9 and 4.x, you do not have to deploy an API proxy to make an API publicly available. However, if your Mule application does not have Autodiscovery configured, you must deploy an API proxy to expose the Mule application via an API.
 
